@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
           // Check that the response is all good
           // Reload the page so the user can see the new quote
           if (response.ok) {
-            console.log(`changed sleep to: ${newDevour}`);
+            console.log(`changed devour to: ${newDevour}`);
             location.reload('/');
           } else {
             alert('something went wrong!');
